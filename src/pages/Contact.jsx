@@ -2,7 +2,7 @@ import Breadcrumbs from "@mui/material/Breadcrumbs";
 import Typography from "@mui/material/Typography";
 import Link from "@mui/material/Link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAngleRight, faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import {  faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import Button from "@mui/material/Button"
 import { StyledEngineProvider } from "@mui/material/styles";
 
