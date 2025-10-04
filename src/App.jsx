@@ -6,18 +6,22 @@ import Contact from './pages/Contact';
 import Header from './components/Header';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Footer from './components/Footer';
+import ScrollToTop from './ScrollToTop';
 
 function App() {
 
   return (
     <BrowserRouter>
-      <Header/>
+      {/* 👇 This should be here, outside Routes */}
+      <ScrollToTop />
+
+      <Header />
       <Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path="/about" element={<About/>}/>
-        <Route path="/contact" element={<Contact/>}/>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
-      <Footer/>
+      <Footer />
     </BrowserRouter>
   )
 }

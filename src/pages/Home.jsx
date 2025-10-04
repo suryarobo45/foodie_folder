@@ -10,7 +10,6 @@ import HoverCard from "../components/HoverCard";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 import Footer from "../components/Footer";
-import { useEffect } from "react";
 import { motion } from "framer-motion";
 
 export default function Home() {

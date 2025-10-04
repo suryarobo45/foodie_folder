@@ -7,6 +7,7 @@ import CardOverlay from "../components/CardOverlay";
 import CardImgOverlay from "../components/CardImgOverlay";
 
 export default function About() {
+    
     return (
         <section className="w-full relative">
             <div className="flex flex-col items-center justify-center bg-[url('https://foodily.vercel.app/assets/images/background/6.jpg')] w-full md:h-[400px] bg-no-repeat  bg-cover">

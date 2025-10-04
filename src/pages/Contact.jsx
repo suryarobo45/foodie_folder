@@ -5,18 +5,14 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {  faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import Button from "@mui/material/Button"
 import { StyledEngineProvider } from "@mui/material/styles";
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
-function App() {
-  return (
-    <StyledEngineProvider injectFirst>
-      <Button className="p-3 bg-green-400 hover:bg-pink-300 text-white">
-        Send
-      </Button>
-    </StyledEngineProvider>
-  );
-}
+
 
 export default function Contact(){
+ 
+    
     return(
         <section className="w-full relative">
             <div className="flex flex-col items-center justify-center bg-[url('https://foodily.vercel.app/assets/images/background/6.jpg')] w-full md:h-[400px] bg-no-repeat  bg-cover">
